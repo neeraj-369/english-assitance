@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.selected {
+  text-decoration: underline solid purple 3px;
+  text-underline-offset: 50%;
+  font-weight: bold;
+  color: purple ;
+}
+
+.navbar-item {
+  margin-left : 10px;
+  margin-right: 10px;
+  
+}
+
+.teacher-container {
+  border-radius: 6px;
+  box-shadow: 0px 0px 7px #333a47;
+}
+
+.badge-class {
+  opacity: 1;
+  background-color: lightcyan;
+  padding: 10px;
+  margin: 10px;
+}
+
+.swal-title {
+  font-size: 50px;
+}
+
+.containerbox {
+  border-radius: "6px";
+  box-shadow: "0px 0px 7px #333a47";
+  padding: "2%";
+  margin-bottom: "18%";
+}
